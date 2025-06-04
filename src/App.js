@@ -1,42 +1,54 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet'
-import Welcome from './components/Welcome'
-import Hello from './components/Hello'
-import Message from './components/Message';
-import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
-import ParentComponent from './components/ParentComponent';
-import UserGreeting from './components/UserGreeting';
-import NameList from './components/NameList';
-import Stylesheet from './components/Stylesheet';
-import Inline from './components/Inline';
 import './appStyles.css'
-import styles from './appStyles.module.css'
-import Form from './components/Form';
-import LifecycleA from './components/LifecycleA';
-import FragmentDemo from './components/FragmentDemo';
-import Table from './components/Table';
-import PureComp from './components/PureComp';
-import ParentComp from './components/ParentComp';
-import MemoComp from './components/MemoComp';
-import RefsDemo from './RefsDemo';
-import FocusInput from './FocusInput';
-import FRParentInput from './FRParentInput';
-import PortalDemo from './components/PortalDemo';
-import Hero from './components/Hero';
-import ErrorBoundary from './components/ErrorBoundary';
-import ClickCounter from './components/ClickCounter';
-import HoverCounter from './components/HoverCounter';
-import ClickCounterTwo from './ClickCounterTwo';
-import HoverCounterTwo from './HoverCounterTwo';
-import User from './User';
-import ComponentC from './components/ComponentC';
-import { UserProvider } from './components/userContext';
+// import Greet from './components/Greet'
+// import Welcome from './components/Welcome'
+// import Hello from './components/Hello'
+// import Message from './components/Message';
+// import Counter from './components/Counter';
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+// import EventBind from './components/EventBind';
+// import ParentComponent from './components/ParentComponent';
+// import UserGreeting from './components/UserGreeting';
+// import NameList from './components/NameList';
+// import Stylesheet from './components/Stylesheet';
+// import Inline from './components/Inline';
+// import styles from './appStyles.module.css'
+// import Form from './components/Form';
+// import LifecycleA from './components/LifecycleA';
+// import FragmentDemo from './components/FragmentDemo';
+// import Table from './components/Table';
+// import PureComp from './components/PureComp';
+// import ParentComp from './components/ParentComp';
+// import MemoComp from './components/MemoComp';
+// import RefsDemo from './RefsDemo';
+// import FocusInput from './FocusInput';
+// import FRParentInput from './FRParentInput';
+// import PortalDemo from './components/PortalDemo';
+// import Hero from './components/Hero';
+// import ErrorBoundary from './components/ErrorBoundary';
+// import ClickCounter from './components/ClickCounter';
+// import HoverCounter from './components/HoverCounter';
+// import ClickCounterTwo from './ClickCounterTwo';
+// import HoverCounterTwo from './HoverCounterTwo';
+// import User from './User';
+// import ComponentC from './components/ComponentC';
+// import { UserProvider } from './components/userContext';
 
+import ClassCounter from './components/state-hook/ClassCounter';
+import HookCounter from './components/state-hook/HookCounter';
+import HookCounterTwo from './components/state-hook/HookCounterTwo';
+import HookCounterThree from './components/state-hook/HookCounterThree';
+import HookCounterFour from './components/state-hook/HookCounterFour';
+import ClassCounterOne from './components/state-hook/ClassCounterOne';
+import HookCounterOne from './components/state-hook/HookCounterOne';
+import ClassMouse from './components/state-hook/ClassMouse';
+import HookMouse from './components/state-hook/HookMouse';
+import MouseContainer from './components/state-hook/MouseContainer';
+import IntervalClassCounter from './components/state-hook/IntervalClassCounter';
+import IntervalHookCounter from './components/state-hook/IntervalHookCounter';
 
 
 
@@ -481,7 +493,7 @@ export default App;
 // export default App;
 
 
-
+/*
 // video - 39 - (Context - part - 3)
 
 class App extends Component {
@@ -494,6 +506,132 @@ class App extends Component {
       </div>
     )
   }
+}
+
+export default App;
+*/
+
+
+
+
+
+/*
+// video - 46 - (useState Hook)
+
+function App() {
+  return (
+    <div className="App">
+     <ClassCounter />
+     <HookCounter />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+/*
+// video - 47 - (useState with previous state)
+
+function App() {
+  return (
+    <div className="App">
+      <HookCounterTwo />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+/*
+// video - 48 - (useState with object)
+
+function App() {
+  return (
+    <div className="App">
+      <HookCounterThree />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+/*
+// video - 49 - (useState with array)
+
+function App() {
+  return (
+    <div className="App">
+      <HookCounterFour />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+/*
+// video - 51 - (useEffect after render)
+
+function App() {
+  return (
+    <div className="App">
+      <ClassCounterOne />
+      <HookCounterOne />
+      
+    </div>
+  );
+}
+
+export default App;
+*/
+
+/*
+// video - 53 - (runs effects only once)
+
+function App() {
+  return (
+    <div className="App">
+      <ClassMouse />
+      <HookMouse />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+/*
+// video - 54 - (useEffect with cleanup)
+
+function App() {
+  return (
+    <div className="App">
+      <MouseContainer />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+
+// video - 55 - (useEffect with incorrect dependency)
+
+function App() {
+  return (
+    <div className="App">
+      <IntervalClassCounter />
+      <IntervalHookCounter />
+    </div>
+  );
 }
 
 export default App;
