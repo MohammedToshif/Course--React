@@ -49,6 +49,7 @@ import HookMouse from './components/state-hook/HookMouse';
 import MouseContainer from './components/state-hook/MouseContainer';
 import IntervalClassCounter from './components/state-hook/IntervalClassCounter';
 import IntervalHookCounter from './components/state-hook/IntervalHookCounter';
+import DataFetching from './components/state-hook/DataFetching';
 
 
 
@@ -622,7 +623,7 @@ export default App;
 */
 
 
-
+/*
 // video - 55 - (useEffect with incorrect dependency)
 
 function App() {
@@ -630,6 +631,21 @@ function App() {
     <div className="App">
       <IntervalClassCounter />
       <IntervalHookCounter />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+
+// video - 56 - (Fetching data with useEffect Part 1)
+
+function App() {
+  return (
+    <div className="App">
+      <DataFetching />
     </div>
   );
 }
