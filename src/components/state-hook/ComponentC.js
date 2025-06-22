@@ -1,5 +1,5 @@
 
-// video - 56 - (useContext Hook Part 1)
+// video - 56 - (useContext Hook Part 2)
 
 import React from 'react'
 import ComponentE from './ComponentE'
