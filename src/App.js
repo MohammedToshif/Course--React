@@ -50,6 +50,7 @@ import MouseContainer from './components/state-hook/MouseContainer';
 import IntervalClassCounter from './components/state-hook/IntervalClassCounter';
 import IntervalHookCounter from './components/state-hook/IntervalHookCounter';
 import DataFetching from './components/state-hook/DataFetching';
+import ComponentC from './components/state-hook/ComponentC';
 
 
 
@@ -639,13 +640,35 @@ export default App;
 */
 
 
-
+/*
 // video - 56 - (Fetching data with useEffect Part 1)
 
 function App() {
   return (
     <div className="App">
       <DataFetching />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+// video - 56 - (useContext Hook Part 1 - consume value with nested)
+
+export const userContext = React.createContext()     // create context
+export const ChannelContext = React.createContext()   // multiple contxt value
+
+function App() {
+  return (
+    <div className="App">
+      <userContext.Provider value={'Toshif'}>
+        <ChannelContext.Provider value={'Codevolution'}>
+  
+          <ComponentC />
+        </ChannelContext.Provider>
+      </userContext.Provider>
     </div>
   );
 }
