@@ -51,6 +51,8 @@ import IntervalClassCounter from './components/state-hook/IntervalClassCounter';
 import IntervalHookCounter from './components/state-hook/IntervalHookCounter';
 import DataFetching from './components/state-hook/DataFetching';
 import ComponentC from './components/state-hook/ComponentC';
+import CounterOne from './components/state-hook/CounterOne';
+import CounterTwo from './components/state-hook/CounterTwo';
 
 
 
@@ -654,7 +656,7 @@ function App() {
 export default App;
 */
 
-
+/*
 // video - 60 - (useContext Hook Part 2 - consume value with nested)
 
 export const userContext = React.createContext()     // create context
@@ -674,3 +676,30 @@ function App() {
 }
 
 export default App;
+*/
+
+
+/*
+// video - 63 - (useReducer - simpple state & action)
+
+function App() {
+  return <div className='App'>
+    <CounterOne />
+  </div>
+}
+
+export default App
+*/
+
+
+
+// video - 64 - (useReducer - complex state & action)
+
+function App() {
+  return <div className='App'>
+    <CounterTwo />
+  </div>
+}
+
+export default App
+

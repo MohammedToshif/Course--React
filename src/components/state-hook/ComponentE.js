@@ -16,7 +16,7 @@ export default ComponentE
 */
 
 
-
+/*
 // video - 61 - (useContext Hook Part 3)
 
 import React, {useContext}  from 'react'
@@ -36,3 +36,4 @@ function ComponentE() {
 }
 
 export default ComponentE
+*/

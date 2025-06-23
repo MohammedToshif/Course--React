@@ -1,4 +1,4 @@
-
+/*
 // video - 60 - (useContext Hook Part 2)
 
 import React from 'react'
@@ -13,3 +13,4 @@ function ComponentC() {
 }
 
 export default ComponentC
+*/
