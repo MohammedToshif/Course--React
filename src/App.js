@@ -60,6 +60,7 @@ import ComponentD from './components/state-hook/ComponentD';
 import ComponentK from './components/state-hook/ComponentK';
 import ComponentL from './components/state-hook/ComponentL';
 import ComponentJ from './components/state-hook/ComponentJ';
+import DataFetchingOne from './components/state-hook/DataFetchingOne';
 
 
 
@@ -765,4 +766,12 @@ export default App
 
 
 
+// video - 67 - (Fetching data with useReducer part 1)
 
+function App() {
+  return <div className='App'>
+    <DataFetchingOne />
+  </div>
+}
+
+export default App
