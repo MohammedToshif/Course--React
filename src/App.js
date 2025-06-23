@@ -53,6 +53,10 @@ import DataFetching from './components/state-hook/DataFetching';
 import ComponentC from './components/state-hook/ComponentC';
 import CounterOne from './components/state-hook/CounterOne';
 import CounterTwo from './components/state-hook/CounterTwo';
+import CounterThree from './components/state-hook/CounterThree';
+import ComponentA from './components/state-hook/ComponentA';
+import ComponentB from './components/state-hook/ComponentB';
+import ComponentD from './components/state-hook/ComponentD';
 
 
 
@@ -692,7 +696,7 @@ export default App
 */
 
 
-
+/*
 // video - 64 - (useReducer - complex state & action)
 
 function App() {
@@ -702,4 +706,22 @@ function App() {
 }
 
 export default App
+*/
+
+
+/*
+// video - 65 - (Multiple useReducers)
+
+function App() {
+  return <div className='App'>
+    <CounterThree />
+  </div>
+}
+
+export default App
+*/
+
+
+
+// video - 66 - (useReducer with useContext)
 
