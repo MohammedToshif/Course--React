@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useReducer, Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './appStyles.css'
@@ -57,6 +57,9 @@ import CounterThree from './components/state-hook/CounterThree';
 import ComponentA from './components/state-hook/ComponentA';
 import ComponentB from './components/state-hook/ComponentB';
 import ComponentD from './components/state-hook/ComponentD';
+import ComponentK from './components/state-hook/ComponentK';
+import ComponentL from './components/state-hook/ComponentL';
+import ComponentJ from './components/state-hook/ComponentJ';
 
 
 
@@ -722,6 +725,44 @@ export default App
 */
 
 
+/*
+// video - 66 - (useReducer with useContext - combining useReducer with useContext for global state management)
 
-// video - 66 - (useReducer with useContext)
+export const CountContext = React.createContext
+
+const initialState = 0
+const reducer = (state, action) => {
+  switch (action) {
+    case 'increment':
+      return state + 1    // new state, current state + 1
+    case 'decrement':
+      return state - 1    // new state, current state - 1
+    case 'reset':
+      return initialState
+    default:                // current state withouth any changes
+      return state
+  }
+}
+
+function App() {
+  const [count, dispatch] = useReducer(reducer, initialState)
+  return (
+    <CountContext.Provider
+      value={{ countState: count, countDispatch: dispatch }}
+    >
+      <div className='App'>
+        Count - {count}
+        <ComponentJ />
+        <ComponentK />
+        <ComponentL />
+      </div>
+    </CountContext.Provider>
+  )
+}
+
+export default App
+*/
+
+
+
 
