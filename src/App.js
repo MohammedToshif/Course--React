@@ -58,6 +58,7 @@ import CounterThree from './components/state-hook/CounterThree';
 // import ComponentL from './components/state-hook/ComponentL';
 // import ComponentJ from './components/state-hook/ComponentJ';
 import DataFetchingOne from './components/state-hook/DataFetchingOne';
+import DataFetchingTwo from './components/state-hook/DataFetchingTwo';
 
 
 
@@ -762,12 +763,25 @@ export default App
 */
 
 
-
+/*
 // video - 67 - (Fetching data with useReducer part 1)
 
 function App() {
   return <div className='App'>
     <DataFetchingOne />
+  </div>
+}
+
+export default App
+*/
+
+
+
+// video - 68 - (Fetching data with useReducer part 2)
+
+function App() {
+  return <div className='App'>
+    <DataFetchingTwo />
   </div>
 }
 
