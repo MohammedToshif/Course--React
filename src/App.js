@@ -60,6 +60,7 @@ import CounterThree from './components/state-hook/CounterThree';
 import DataFetchingOne from './components/state-hook/DataFetchingOne';
 import DataFetchingTwo from './components/state-hook/DataFetchingTwo';
 import ParentComponent from './components/state-hook/ParentComponent';
+import UseMemo from './components/state-hook/UseMemo';
 
 
 
@@ -790,12 +791,25 @@ export default App
 */
 
 
-
+/*
 // video - 70 - (useCallback Hook)
 
 function App() {
   return <div className='App'>
     <ParentComponent />
+  </div>
+}
+
+export default App
+*/
+
+
+
+// video - 71 - (useMemo Hook)
+
+function App() {
+  return <div className='App'>
+    <UseMemo />
   </div>
 }
 
