@@ -54,12 +54,9 @@ import ComponentC from './components/state-hook/ComponentC';
 import CounterOne from './components/state-hook/CounterOne';
 import CounterTwo from './components/state-hook/CounterTwo';
 import CounterThree from './components/state-hook/CounterThree';
-import ComponentA from './components/state-hook/ComponentA';
-import ComponentB from './components/state-hook/ComponentB';
-import ComponentD from './components/state-hook/ComponentD';
-import ComponentK from './components/state-hook/ComponentK';
-import ComponentL from './components/state-hook/ComponentL';
-import ComponentJ from './components/state-hook/ComponentJ';
+// import ComponentK from './components/state-hook/ComponentK';
+// import ComponentL from './components/state-hook/ComponentL';
+// import ComponentJ from './components/state-hook/ComponentJ';
 import DataFetchingOne from './components/state-hook/DataFetchingOne';
 
 
