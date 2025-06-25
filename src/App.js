@@ -66,6 +66,8 @@ import ClassTimer from './components/state-hook/ClassTimer';
 import HookTimer from './components/state-hook/HookTimer';
 import DocTitleOne from './components/state-hook/DocTitleOne';
 import DocTitleTwo from './components/state-hook/DocTitleTwo';
+import CustomHook from './components/state-hook/CustomHook';
+import CustomHookTwo from './components/state-hook/CustomHookTwo';
 
 
 
@@ -849,14 +851,28 @@ export default App
 */
 
 
-
+/*
 // video - 75 - (useDocumentTitle Custom Hook)
 
 function App() {
   return <div className='App'>
     <DocTitleOne />
     <DocTitleTwo />
-    
+  </div>
+}
+
+export default App
+*/
+
+
+
+
+// video - 76 - (useCounter Custom Hook)
+
+function App() {
+  return <div className='App'>
+    <CustomHook />
+    <CustomHookTwo />
   </div>
 }
 
