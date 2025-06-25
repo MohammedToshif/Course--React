@@ -64,6 +64,8 @@ import UseMemo from './components/state-hook/UseMemo';
 import UseRef from './components/state-hook/UseRef'
 import ClassTimer from './components/state-hook/ClassTimer';
 import HookTimer from './components/state-hook/HookTimer';
+import DocTitleOne from './components/state-hook/DocTitleOne';
+import DocTitleTwo from './components/state-hook/DocTitleTwo';
 
 
 
@@ -833,13 +835,28 @@ export default App
 */
 
 
-
+/*
 // video - 73 - (useRef Hook part 2)
 
 function App() {
   return <div className='App'>
     <ClassTimer />
     <HookTimer />
+  </div>
+}
+
+export default App
+*/
+
+
+
+// video - 75 - (useDocumentTitle Custom Hook)
+
+function App() {
+  return <div className='App'>
+    <DocTitleOne />
+    <DocTitleTwo />
+    
   </div>
 }
 
