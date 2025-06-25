@@ -61,6 +61,9 @@ import DataFetchingOne from './components/state-hook/DataFetchingOne';
 import DataFetchingTwo from './components/state-hook/DataFetchingTwo';
 import ParentComponent from './components/state-hook/ParentComponent';
 import UseMemo from './components/state-hook/UseMemo';
+import UseRef from './components/state-hook/UseRef'
+import ClassTimer from './components/state-hook/ClassTimer';
+import HookTimer from './components/state-hook/HookTimer';
 
 
 
@@ -804,12 +807,39 @@ export default App
 */
 
 
-
+/*
 // video - 71 - (useMemo Hook)
 
 function App() {
   return <div className='App'>
     <UseMemo />
+  </div>
+}
+
+export default App
+*/
+
+
+/*
+// video - 72 - (useRef Hook)
+
+function App() {
+  return <div className='App'>
+    <UseRef />
+  </div>
+}
+
+export default App
+*/
+
+
+
+// video - 73 - (useRef Hook part 2)
+
+function App() {
+  return <div className='App'>
+    <ClassTimer />
+    <HookTimer />
   </div>
 }
 
