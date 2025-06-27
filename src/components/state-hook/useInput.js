@@ -10,7 +10,7 @@ function useInput(initialValue) {
     }
     const bind = {
         value,      // ES6 shothand syntax for object(create property)
-        onchange: e => {
+        onChange: e => {
             setValue(e.target.value)
         }
     }
