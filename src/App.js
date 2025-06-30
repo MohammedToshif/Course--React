@@ -898,8 +898,21 @@ export default App
 
 
         // React Render tutorial
-
+/*
 // React Render Tutorial - 3 - useState
+
+function App() {
+  return <div className='App'>
+    <UseState />
+  </div>
+}
+
+export default App
+*/
+
+
+
+// React Render Tutorial - 4 - useReducer
 
 function App() {
   return <div className='App'>
