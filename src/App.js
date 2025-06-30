@@ -69,6 +69,7 @@ import DocTitleTwo from './components/state-hook/DocTitleTwo';
 import CustomHook from './components/state-hook/CustomHook';
 import CustomHookTwo from './components/state-hook/CustomHookTwo';
 import UserForm from './components/state-hook/UserForm';
+import UseState from './components/react-render/UseState';
 
 
 
@@ -881,12 +882,28 @@ export default App
 */
 
 
-
+/*
 // video - 77 - (useInput Custom Hook)
 
 function App() {
   return <div className='App'>
     <UserForm />
+  </div>
+}
+
+export default App
+*/
+
+
+
+
+        // React Render tutorial
+
+// React Render Tutorial - 3 - useState
+
+function App() {
+  return <div className='App'>
+    <UseState />
   </div>
 }
 
